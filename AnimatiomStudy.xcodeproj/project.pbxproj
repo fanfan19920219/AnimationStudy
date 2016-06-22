@@ -15,6 +15,12 @@
 		297FFDE41D17B83E0000BD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297FFDE21D17B83E0000BD78 /* LaunchScreen.storyboard */; };
 		297FFDEF1D17B83F0000BD78 /* AnimatiomStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFDEE1D17B83F0000BD78 /* AnimatiomStudyTests.m */; };
 		297FFDFA1D17B83F0000BD78 /* AnimatiomStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFDF91D17B83F0000BD78 /* AnimatiomStudyUITests.m */; };
+		297FFE0A1D17B86A0000BD78 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFE091D17B86A0000BD78 /* AnimationView.m */; };
+		297FFE0E1D17B9910000BD78 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFE0D1D17B9910000BD78 /* UIColor+Hex.m */; };
+		297FFE121D17B9FC0000BD78 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFE111D17B9FC0000BD78 /* CircleLayer.m */; };
+		297FFE151D17CA790000BD78 /* TriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFE141D17CA790000BD78 /* TriangleLayer.m */; };
+		297FFE181D17D2710000BD78 /* RectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFE171D17D2710000BD78 /* RectangleLayer.m */; };
+		297FFE1B1D17F2E90000BD78 /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FFE1A1D17F2E90000BD78 /* WaveLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		297FFDF51D17B83F0000BD78 /* AnimatiomStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatiomStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		297FFDF91D17B83F0000BD78 /* AnimatiomStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatiomStudyUITests.m; sourceTree = "<group>"; };
 		297FFDFB1D17B83F0000BD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297FFE081D17B86A0000BD78 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		297FFE091D17B86A0000BD78 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		297FFE0C1D17B9910000BD78 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		297FFE0D1D17B9910000BD78 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		297FFE101D17B9FC0000BD78 /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		297FFE111D17B9FC0000BD78 /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		297FFE131D17CA790000BD78 /* TriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleLayer.h; sourceTree = "<group>"; };
+		297FFE141D17CA790000BD78 /* TriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleLayer.m; sourceTree = "<group>"; };
+		297FFE161D17D2710000BD78 /* RectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleLayer.h; sourceTree = "<group>"; };
+		297FFE171D17D2710000BD78 /* RectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleLayer.m; sourceTree = "<group>"; };
+		297FFE191D17F2E90000BD78 /* WaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveLayer.h; sourceTree = "<group>"; };
+		297FFE1A1D17F2E90000BD78 /* WaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,8 @@
 				297FFDD81D17B83E0000BD78 /* AppDelegate.m */,
 				297FFDDA1D17B83E0000BD78 /* ViewController.h */,
 				297FFDDB1D17B83E0000BD78 /* ViewController.m */,
+				297FFE0B1D17B8BB0000BD78 /* Others */,
+				297FFE071D17B8490000BD78 /* HWView */,
 				297FFDDD1D17B83E0000BD78 /* Main.storyboard */,
 				297FFDE01D17B83E0000BD78 /* Assets.xcassets */,
 				297FFDE21D17B83E0000BD78 /* LaunchScreen.storyboard */,
@@ -138,6 +158,40 @@
 				297FFDFB1D17B83F0000BD78 /* Info.plist */,
 			);
 			path = AnimatiomStudyUITests;
+			sourceTree = "<group>";
+		};
+		297FFE071D17B8490000BD78 /* HWView */ = {
+			isa = PBXGroup;
+			children = (
+				297FFE081D17B86A0000BD78 /* AnimationView.h */,
+				297FFE091D17B86A0000BD78 /* AnimationView.m */,
+				297FFE0F1D17B9DF0000BD78 /* HWLayer */,
+			);
+			name = HWView;
+			sourceTree = "<group>";
+		};
+		297FFE0B1D17B8BB0000BD78 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				297FFE0C1D17B9910000BD78 /* UIColor+Hex.h */,
+				297FFE0D1D17B9910000BD78 /* UIColor+Hex.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		297FFE0F1D17B9DF0000BD78 /* HWLayer */ = {
+			isa = PBXGroup;
+			children = (
+				297FFE101D17B9FC0000BD78 /* CircleLayer.h */,
+				297FFE111D17B9FC0000BD78 /* CircleLayer.m */,
+				297FFE131D17CA790000BD78 /* TriangleLayer.h */,
+				297FFE141D17CA790000BD78 /* TriangleLayer.m */,
+				297FFE161D17D2710000BD78 /* RectangleLayer.h */,
+				297FFE171D17D2710000BD78 /* RectangleLayer.m */,
+				297FFE191D17F2E90000BD78 /* WaveLayer.h */,
+				297FFE1A1D17F2E90000BD78 /* WaveLayer.m */,
+			);
+			name = HWLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +325,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				297FFDDC1D17B83E0000BD78 /* ViewController.m in Sources */,
+				297FFE0E1D17B9910000BD78 /* UIColor+Hex.m in Sources */,
+				297FFE1B1D17F2E90000BD78 /* WaveLayer.m in Sources */,
+				297FFE0A1D17B86A0000BD78 /* AnimationView.m in Sources */,
+				297FFE121D17B9FC0000BD78 /* CircleLayer.m in Sources */,
+				297FFE151D17CA790000BD78 /* TriangleLayer.m in Sources */,
+				297FFE181D17D2710000BD78 /* RectangleLayer.m in Sources */,
 				297FFDD91D17B83E0000BD78 /* AppDelegate.m in Sources */,
 				297FFDD61D17B83E0000BD78 /* main.m in Sources */,
 			);
@@ -496,6 +556,7 @@
 				297FFE001D17B83F0000BD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		297FFE011D17B83F0000BD78 /* Build configuration list for PBXNativeTarget "AnimatiomStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +565,7 @@
 				297FFE031D17B83F0000BD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		297FFE041D17B83F0000BD78 /* Build configuration list for PBXNativeTarget "AnimatiomStudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +574,7 @@
 				297FFE061D17B83F0000BD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

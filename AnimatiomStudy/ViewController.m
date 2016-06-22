@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "AnimationView.h"
+#import "UIColor+Hex.h"
+@interface ViewController () <AnimatiomViewDelegate>
+@property (strong, nonatomic) AnimationView  *animationView;
 
 @end
 
@@ -16,7 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self _initAnimationView];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)_initAnimationView {
+    CGFloat size = 100.0;
+    self.animationView = [[AnimationView alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.view.frame)/2 - size/2, CGRectGetHeight(self.view.frame)/2 - size/2, size, size)];
+    _animationView.delegate = self;
+    _animationView.parentFrame = self.view.frame;
+    [self.view addSubview:_animationView];
+}
+
+- (void)completeAnimation {
+    NSLog(@"完成了");
 }
 
 - (void)didReceiveMemoryWarning {
